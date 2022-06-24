@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charaset ="utf-8">
+    <meta name="description" content ="bootstrap lab">
+    <meta name="keyword" content ="HTML,CSS,XML,JS">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAB 2</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    .col-sm-3{
+        min-height: 250px;
+        padding: 50px;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+        line-height: 4;
+        font-size: 30px;
+    }
+    .col-sm-6{
+        min-height: 250px;
+        padding: 50px;
+        font-weight: bold;
+        color: white;  
+        text-align: center;
+        line-height: 4;
+        font-size: 30px;
+    }
+    @media only screen and (max-width:600px) {
+        .col-sm-3{
+            min-height:120px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3  order-sm-1" style="background-color:blue;">NAV</div>
+            <div class="col-sm-3 order-sm-12"style="background-color:red;">WIDGET</div>
+            <div class="col-sm-6  col -lg-6 order-sm-3"style="background-color:orange;">CONTENT</div>     
+        </div>
+    </div>
+</body>
+</html>
